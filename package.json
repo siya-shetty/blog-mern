@@ -1,5 +1,28 @@
 {
+  "name": "mern-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev":"nodemon api/index.js",
+    "start":"node api/index.js"
+
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siya-shetty/blog-mern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siya-shetty/blog-mern/issues"
+  },
+  "homepage": "https://github.com/siya-shetty/blog-mern#readme",
+  "description": "",
   "dependencies": {
-    "react-router-dom": "^7.7.0"
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
   }
 }
